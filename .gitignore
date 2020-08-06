@@ -1,4 +1,12 @@
 motion_imitation/VirEnv
 motion_imitation/.idea
+motion_imitation/data
+motion_imitation/envs/__pycache__
+motion_imitation/envs/env_wrappers/__pycache__
+motion_imitation/envs/sensors/__pycache__
+motion_imitation/envs/utilities/__pycache__
+motion_imitation/learning/__pycache__
+motion_imitation/robots/__pycache__
+motion_imitation/utilities/__pycache__
 motion_imitation/output
 

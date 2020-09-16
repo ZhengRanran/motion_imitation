@@ -32,6 +32,7 @@ OPTIM_BATCHSIZE = 256
 
 ENABLE_ENV_RANDOMIZER = True
 
+
 def set_rand_seed(seed=None):
     if seed is None:
         seed = int(time.time())
@@ -43,6 +44,7 @@ def set_rand_seed(seed=None):
     random.seed(seed)
 
     return
+
 
 def build_model(env, num_procs, timesteps_per_actorbatch, optim_batchsize, output_dir):
     policy_kwargs = {
